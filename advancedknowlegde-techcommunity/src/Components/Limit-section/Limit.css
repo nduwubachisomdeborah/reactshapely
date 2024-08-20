@@ -1,0 +1,40 @@
+.limitsection {
+  height: 40vh;
+  background-color: whitesmoke;
+  padding-top: 30px;
+}
+.limitparentdiv {
+  margin-bottom: 20px;
+}
+.limittext {
+  text-align: center;
+  font-size: 27px;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.limitnote {
+  text-align: center;
+  margin-top: 10px;
+  color: grey;
+}
+.buttonlimit {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(112, 63, 228);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.picture {
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img/photowork5.jpg");
+  align-content: center;
+}

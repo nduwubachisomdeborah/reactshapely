@@ -1,0 +1,63 @@
+.Portfolio-section {
+  height: 74vh;
+  background-color: whitesmoke;
+}
+.Portfolio-parentdiv {
+  display: flex;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.Portfolio-writeup {
+  width: 50%;
+  margin-top: 88px;
+}
+.Portfolio-writeup h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 100;
+}
+.Portfolio-writeup p {
+  font-size: large;
+  color: rgb(119, 115, 115);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 73%;
+}
+.Portfoliobutton {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(112, 63, 228);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.Portfolioimg {
+  width: 72%;
+  margin-top: 50px;
+}
+.Portfoliobutton:hover {
+  width: 200px;
+  height: 50px;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+}

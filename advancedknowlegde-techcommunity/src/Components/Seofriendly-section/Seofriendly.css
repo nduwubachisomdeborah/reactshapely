@@ -1,0 +1,58 @@
+.parent-div3SEO-sectiondiv {
+  height: 55vh;
+}
+.SEOsub-section-parentdiv {
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.imagediv {
+  width: 50%;
+}
+.writeup {
+  width: 50%;
+}
+.writeup h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 100;
+}
+.writeup p {
+  font-size: large;
+  color: rgb(119, 115, 115);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+.SEObutton {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(112, 63, 228);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.SEObutton:hover {
+  width: 200px;
+  height: 50px;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.latestsection {
+  height: 147vh;
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
+.latestsection h2 {
+  text-align: center;
+  padding-top: 20%;
+  font-size: xx-large;
+  font-weight: 100;
+}
+.latestsection p {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.photodiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  height: 150vh;
+}
+.photodiv div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.photodiv div {
+  width: calc(100% / 4);
+  cursor: pointer;
+  position: relative;
+}
+.photodiv .us {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+.photodiv .us:hover {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}

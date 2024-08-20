@@ -1,0 +1,76 @@
+.faq {
+  height: 50vh;
+  background-color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  color: black;
+}
+.h {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 200;
+  font-style: italic;
+  margin-right: 60px;
+}
+.down {
+  margin-top: 40px;
+  border-radius: 2px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(174, 127, 236);
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  align-content: center;
+  margin-top: 80px;
+}
+.down:hover {
+  margin-top: 40px;
+  border-radius: 2px;
+  height: 60px;
+  width: 200px;
+  background-color: rgb(247, 66, 247);
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  align-content: center;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.foot {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  gap: 35%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.foot h3 {
+  color: white;
+  font-family: tahoma;
+}
+.A {
+  color: white;
+  display: flex;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.foot a {
+  text-decoration: none;
+  color: grey;
+  transition: 0.3s ease-in-out;
+}
+.foot a:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+}

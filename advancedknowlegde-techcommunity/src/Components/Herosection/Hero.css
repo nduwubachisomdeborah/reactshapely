@@ -1,0 +1,91 @@
+.parent-div {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img/image7.jpeg");
+  align-content: center;
+  background-attachment: fixed;
+}
+.TEXT {
+  color: white;
+  font-size: 65px;
+  font-family: initial;
+  font-weight: 310;
+  text-align: center;
+  display: block;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.hero2 {
+  display: block;
+}
+.ptags {
+  margin-top: 10px;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+.parentbutton {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+.firstbutton {
+  background-color: violet;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secondbutton {
+  background-color: transparent;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.firstbutton:hover {
+  background-color: blueviolet;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.secondbutton:hover {
+  background-color: black;
+  width: 200px;
+  height: 70px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

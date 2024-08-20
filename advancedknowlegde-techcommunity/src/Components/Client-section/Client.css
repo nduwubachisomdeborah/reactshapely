@@ -1,0 +1,47 @@
+.client {
+  background-color: white;
+  height: 60vh;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 80px;
+}
+.parentclient {
+  font-weight: 100;
+  font-size: 34px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.logodiv {
+  display: flex;
+  grid-row-gap: 20px;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  gap: 80px;
+}
+.logo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 100px;
+}
+.logo div img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: flex;
+}
+.logo {
+  display: flex;
+  gap: 150px;
+  animation: scroll linear 30s;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(103%);
+  }
+  100% {
+    transform: translateX(-103%);
+  }
+}
